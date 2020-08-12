@@ -1,0 +1,36 @@
+#header .header-body{
+    background: #19388a;
+}
+
+#header .header-column .header-extra-info li .feature-box p{
+    color: #ffffff;
+}
+
+#header .header-logo{
+    margin: auto;
+}
+
+.feature-box.feature-box-style-2 .feature-box-icon [class*="fa-"], .feature-box.feature-box-style-2 .feature-box-icon .icons{
+    color: #ffffff;
+}
+
+#header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span{
+color: #000000;
+}
+.header-extra-info>li>a:hover{
+color: transparent;
+}
+@media (min-width: 992px){
+#header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a 
+{
+color: black;
+}
+}
+@media (max-width: 767px){
+.home-intro{
+    padding: 10px;
+}
+.home-intro p{
+    font-size: 10px;
+    }
+}
