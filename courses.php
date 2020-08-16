@@ -59,7 +59,7 @@
                             <div class="header-row">
                                 <ul class="header-extra-info">
                                     <li class="m-0">
-                                        <a href="contact.html">
+                                        <a href="contact.php">
                                             <div class="feature-box feature-box-style-2 align-items-center">
                                                 <div class="feature-box-icon">
                                                     <i class="far fa-clock text-7 p-relative"></i>
@@ -87,7 +87,7 @@
                             <div class="header-row">
                                 <ul class="header-extra-info">
                                     <li class="m-0">
-                                        <a href="contact.html">
+                                        <a href="contact.php">
                                             <div class="feature-box feature-box-style-2 align-items-center">
 
                                                 <div class="feature-box-icon">
@@ -128,11 +128,11 @@
                                                                 About Us </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item"
-                                                                        href="/funders-and-supporters.html">Funders and
+                                                                        href="/funders-and-supporters.php">Funders and
                                                                         Supporters</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item"
-                                                                        href="/photos.html">Photos/Videos</a>
+                                                                        href="/photos.php">Photos/Videos</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -324,7 +324,7 @@
                 <div class="container">
                     <div class="row py-5 my-4">
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <a href="index.html" class="logo pr-0 pr-lg-3">
+                            <a href="index.php" class="logo pr-0 pr-lg-3">
                                 <img alt="Waimarie" src="images/logo.png" class="mb-4 mt-1" width="200">
                             </a>
                             <ul class="list list-icons list-icons-sm">
