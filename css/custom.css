@@ -20,6 +20,75 @@ color: #000000;
 .header-extra-info>li>a:hover{
 color: transparent;
 }
+html .text-color-primary, html .text-primary {
+    color: white !important;
+}
+#footer .footer-copyright p{
+    color: white;
+}
+
+#footer .list.list-icons li > [class*="fa-"]:first-child, .list.list-icons li a:first-child > [class*="fa-"]:first-child, .list.list-icons li > .icons:first-child, .list.list-icons li a:first-child > .icons:first-child{
+    color: white;
+    border-color: white;
+}
+
+.overlay.overlay-op-8:hover:before, .overlay.overlay-op-8.overlay-show:before, .overlay.overlay-op-8.show:before {
+    opacity: 0.6;
+}
+
+html .overlay-color-primary:not(.no-skin):before {
+    background-color: #000000 !important;
+}
+.featured-box-effect-4 .funders-featured {
+    transition: transform 0.2s, transform 0.2s;
+    transform: scale(1);    
+}
+.featured-box-effect-4:hover .funders-featured {
+    transform: scale(1.15);
+}
+
+.img-thumbnail{
+    background-color: unset;
+}
+
+.img-thumbnail.lightbox img{
+    /* max-height: 187px; */
+    margin-top: 1.5rem!important;
+}
+
+.opportunity-img .img-thumbnail{
+    border:none;
+}
+
+.funders-featured{
+    max-width: 300px;
+}
+
+.img-courses{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html .btn-outline.btn-waimarie {
+    color: #19388a;
+    background-color: transparent;
+    background-image: none;
+    border-color: #19388a;
+}
+
+html .btn-outline.btn-waimarie:active, html .btn-outline.btn-waimarie.active {
+    color: #FFF !important;
+    background-color: #19388a !important;
+    border-color: #19388a !important;
+}
+
+html .btn-outline.btn-waimarie:hover, html .btn-outline.btn-waimarie.hover {
+    color: #FFF;
+    background-color: #19388a;
+    border-color: #19388a;
+}
+
 @media (min-width: 992px){
 #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a 
 {
@@ -33,4 +102,14 @@ color: black;
 .home-intro p{
     font-size: 10px;
     }
+    .img-thumbnail.lightbox img{
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 992px){
+#header .header-nav-bar.header-nav-bar-top-border {
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
 }
