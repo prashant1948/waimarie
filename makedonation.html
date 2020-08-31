@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Waimarie: Hamilton East Community House 53 Wellington Street Hamilton East Opening Hours: 9am-4pm Monday to Friday Programme Term 1 2020 Programme Term 2 2020 Programme Term 3 2020 Waimarie: Hamilton East Community House is a small community house offering a range of services.">
+        content="Movies from Storytelling Workshop for kids with They call me ninu Garden Greg and his Bagpipes Photos on our facebook page (click on the link below) https://www.facebook.com/media/set/?set=a.10153822744615460.1073741836.">
     <meta name="keywords"
         content="community house, hamilton, curtains, vegetables box,vege box, fruit box, budgeting advice, legal advice, entertainment book, room hire, community garden, sporting and cultural fund, hamilton east, photocopying, opportunity shop, advocacy">
-    <title>Waimarie: Hamilton East Community House – South East Kirikiriroa Community Association Inc</title>
-
+    <title>Photos/Videos – Waimarie: Hamilton East Community House</title>
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400"
         rel="stylesheet" type="text/css">
@@ -50,6 +49,11 @@
 
 <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay
     data-plugin-options="{'hideDelay': 500}">
+
+    <div class="icon-bar float-right">
+        <a href="#" class="donation"><i class="fas fa-donate"></i>&nbsp;&nbsp;Donate</a>
+    </div>
+
     <div class="body">
         <header id="header"
             data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 164, 'stickySetTop': '-130px', 'stickyChangeLogo': false}">
@@ -120,12 +124,13 @@
                                                 class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                                 <nav class="collapse">
                                                     <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
-                                                        <li class="dropdown"> <a
-                                                                class="dropdown-item dropdown-toggle active" href="/">
+                                                        <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
+                                                                href="/">
                                                                 Home </a>
                                                         </li>
-                                                        <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
-                                                                href="#"> About Us </a>
+                                                        <li class="dropdown"> <a
+                                                                class="dropdown-item dropdown-toggle active" href="#">
+                                                                About Us </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item"
                                                                         href="/funders-and-supporters.html">Funders and
@@ -178,7 +183,7 @@
                                                                 href="#"> Resources </a>
                                                         </li>
                                                         <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
-                                                                href="/donations.html"> Donations </a>
+                                                                href="#"> Donations </a>
                                                         </li>
                                                         <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
                                                                 href="#"> Newsletter </a>
@@ -204,192 +209,224 @@
         </header>
 
         <div role="main" class="main">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe
-                    src="https://player.vimeo.com/video/199596711?title=0&byline=0&portrait=0&autoplay=1&loop=1&autopause=0"
-                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay;"></iframe>
-            </div>
-            <div class=" home-intro home-intro-quaternary" id="home-intro">
+            <section
+                class="page-header page-header-modern section-text-light section-background text-center page-header-background page-header-background-sm overlay overlay-color-primary overlay-show overlay-op-8"
+                style="background-image: url(images/garden3.jpg);">
                 <div class="container">
-
-                    <div class="row text-center">
+                    <div class="row">
                         <div class="col">
-                            <p class="mb-0">
-                                Waimarie: Hamilton East Community House is a small community house offering a range
-                                of
-                                services.
-                            </p>
+                            <ul class="breadcrumb breadcrumb-light d-block text-center">
+                                <li><a href="#">Home</a></li>
+                                <li class="active">Donations</li>
+                            </ul>
+
+                            <h1>Make Donation</h1>
+
                         </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="accordion accordion-modern" id="accordion">
+                            <div class="card card-default">
+                                <div class="card-header">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                            href="#collapseOne">
+                                            Billing Address
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="collapse show">
+                                    <div class="card-body">
+                                        <form action="/" id="frmBillingAddress" method="post">
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <label class="font-weight-bold text-dark text-2">Country</label>
+                                                    <select class="form-control">
+                                                        <option value="">Select a country</option>
+                                                        <option>New Zealand</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-6">
+                                                    <label class="font-weight-bold text-dark text-2">First Name</label>
+                                                    <input type="text" value="" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-6">
+                                                    <label class="font-weight-bold text-dark text-2">Last Name</label>
+                                                    <input type="text" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <label class="font-weight-bold text-dark text-2">Company
+                                                        Name</label>
+                                                    <input type="text" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <label class="font-weight-bold text-dark text-2">Address </label>
+                                                    <input type="text" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <label class="font-weight-bold text-dark text-2">City </label>
+                                                    <input type="text" value="" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="shop">
+                                                <table class="cart-totals">
+                                                    <tbody>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-dark">Donation Subtotal</strong>
+                                                            </th>
+                                                            <td>
+                                                                <strong class="text-dark"><span
+                                                                        class="amount">$431</span></strong>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="shipping">
+                                                            <th>
+                                                                Tax
+                                                            </th>
+                                                            <td>
+                                                                No charge<input type="hidden" value="free_shipping"
+                                                                    id="shipping_method" name="shipping_method">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="total">
+                                                            <th>
+                                                                <strong class="text-dark">Donation Total</strong>
+                                                            </th>
+                                                            <td>
+                                                                <strong class="text-dark"><span
+                                                                        class="amount">$431</span></strong>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <hr class="solid my-5">
+
+                                            <h4 class="text-primary">Payment</h4>
+
+
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input"
+                                                            id="paymentcheque">
+                                                        <label class="custom-control-label" for="paymentcheque">Cheque
+                                                            Payment</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input"
+                                                            id="paymentpaypal">
+                                                        <label class="custom-control-label"
+                                                            for="paymentpaypal">Paypal</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="actions-continue">
+                            <input type="submit" value="Pay" name="proceed"
+                                class="btn btn-primary btn-modern text-uppercase mt-5 mb-5 mb-lg-0 float-right">
+                        </div>
+
                     </div>
 
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="container">
+    <footer id="footer">
+        <div class="container">
+            <div class="row py-5 my-4">
+                <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+                    <a href="index.html" class="logo pr-0 pr-lg-3">
+                        <img alt="Waimarie" src="images/logo.png" class="mb-4 mt-1" width="200">
+                    </a>
+                    <ul class="list list-icons list-icons-sm">
+                        <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1">
+                                Programme
+                                Term 1 2020</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1">
+                                Programme
+                                Term 2 2020</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1">
+                                Programme
+                                Term 3 2020</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWaimarie.Hamilton.East.Community.House&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media" class="fb-responsive"></iframe>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                    <h5 class="text-3 mb-3">CONTACT US</h5>
+                    <ul class="list list-icons list-icons-lg">
+                        <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i>
+                            <p class="m-0">53 Wellington St, Hamilton East 3216</p>
+                        </li>
+                        <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i>
+                            <p class="m-0"><a href="tel:8001234567">(07) 858 3453</a></p>
+                        </li>
+                        <li class="mb-1"><i class="far fa-envelope text-color-primary"></i>
+                            <p class="m-0"><a href="mailto:mail@example.com">manager@waimarie.org</a></p>
+                        </li>
+                    </ul>
+                </div> -->
+                <!-- <div class="col-md-6 col-lg-2">
+                    <h5 class="text-3 mb-3">FOLLOW US</h5>
+                    <ul class="header-social-icons social-icons">
+                        <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+                                title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
+                                title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
+                                title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
 
-                <div class="row">
-                    <div class="col">
 
-                        <div class="row align-items-center pt-4 appear-animation"
-                            data-appear-animation="fadeInLeftShorter">
-                            <div class="col-md-4 mb-4 mb-md-0">
-                                <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="images/garden/garden2.jpg"
-                                    alt="layout styles" />
-                            </div>
-                            <div class="col-md-8 pl-md-5">
-                                <h2 class="font-weight-normal text-6 mb-3">The Ongoing <strong
-                                        class="font-weight-extra-bold">Services</strong> are: </h2>
-                                <p class="text-4">
-                                <ul class="list list-icons">
-                                    <li><i class="fas fa-check"></i> Free Budgeting advice in association with Budgeting
-                                        Advisory Trust each Tuesday 9am to 3 pm.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Free 10-15 minute appointments are available on Thursdays 10-11am. Only Family
-                                        Law legal advice at present. It is provided by the lawyer Emma Miles.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Benefit and ACC advocacy services offered in association with Pukete
-                                        Neighbourhood House by appointment only. </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Low-cost Fruit & Vegetable boxes $11
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        A bread run available for collection by needy families on Tuesdays 10am until
-                                        2pm.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Room Hire, media equipment hire, table and Chair Hire
-                                    </li>
-                                </ul>
+        <div class="footer-copyright footer-copyright-style-2">
+            <div class="container py-2">
+                <div class="row py-4">
 
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <hr class="solid my-5">
-
-                        <div class="row align-items-center pt-5 pb-3 appear-animation"
-                            data-appear-animation="fadeInRightShorter">
-                            <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
-                                <p class="text-4">
-                                <ul class="list list-icons">
-                                    <li><i class="fas fa-check"></i>
-                                        Photocopying and laminating service
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Referrals to other agencies.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Waimarie Community House offers a Sport, Cultural and music scholarship (SAM
-                                        Project) which sponsors children for one year to enable primary aged children
-                                        who would not normally be able to participate in organized cultural activities,
-                                        due to financial constraints, the opportunity to do so, by providing equipment
-                                        and/or payment of fees.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        SEKCA Committee Scholarship to university students. Recipients receive a $600
-                                        stipend and sit on our governance committee to learn about the workings of
-                                        committees and community organisations.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Short education courses.
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Free computer use
-                                    </li>
-                                    <li><i class="fas fa-check"></i>
-                                        Community Garden
-                                    </li>
-                                    </p>
-                            </div>
-                            <div class="col-md-4 px-5 px-md-3">
-                                <img class="img-fluid scale-2 my-4" src="images/miscellaneous1.jpg"
-                                    alt="style switcher" />
-                            </div>
-                        </div>
+                    <div class="col-lg-12 d-flex align-items-center justify-content-center mb-4 mb-lg-0 pt-4 pt-lg-0">
+                        <p>© Copyright 2020. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <footer id="footer">
-            <div class="container">
-                <div class="row py-5 my-4">
-                    <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <img alt="Waimarie" width="200" src="images/logo.png">
-                    </div> -->
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <a href="index.html" class="logo pr-0 pr-lg-3">
-                            <img alt="Porto Website Template" src="images/logo.png" class="mb-4 mt-1" width="200">
-                        </a>
-                        <ul class="list list-icons list-icons-sm">
-                            <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1"> Programme
-                                    Term 1 2020</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1"> Programme
-                                    Term 2 2020</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="#" class="link-hover-style-1 ml-1"> Programme
-                                    Term 3 2020</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <h5 class="text-3 mb-3">LATEST TWEETS</h5>
-                        <div id="tweet" class="twitter" data-plugin-tweets=""
-                            data-plugin-options="{'username': 'oklerthemes', 'count': 2}">
-                            <ul>
-                                <li><span class="status"><i class="fab fa-twitter false"></i> If you have any
-                                        suggestions for the next updates, let us know.</span><span class="meta"> <a
-                                            href="http://twitter.com/OklerThemes/status/644859776422293504"
-                                            target="_blank">10:05 AM Sep 18th</a></span></li>
-                                <li><span class="status"><i class="fab fa-twitter false"></i> We have just updated Porto
-                                        Admin. Check the changelog for more information.</span><span class="meta"> <a
-                                            href="http://twitter.com/OklerThemes/status/644859595777830913"
-                                            target="_blank">10:04 AM Sep 18th</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                        <h5 class="text-3 mb-3">CONTACT US</h5>
-                        <ul class="list list-icons list-icons-lg">
-                            <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i>
-                                <p class="m-0">53 Wellington St, Hamilton East 3216</p>
-                            </li>
-                            <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i>
-                                <p class="m-0"><a href="tel:8001234567">(07) 858 3453</a></p>
-                            </li>
-                            <li class="mb-1"><i class="far fa-envelope text-color-primary"></i>
-                                <p class="m-0"><a href="mailto:mail@example.com">manager@waimarie.org</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-2">
-                        <h5 class="text-3 mb-3">FOLLOW US</h5>
-                        <ul class="header-social-icons social-icons">
-                            <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
-                                    title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-                                    title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
-                                    title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="footer-copyright footer-copyright-style-2">
-                <div class="container py-2">
-                    <div class="row py-4">
-
-                        <div
-                            class="col-lg-12 d-flex align-items-center justify-content-center mb-4 mb-lg-0 pt-4 pt-lg-0">
-                            <p>© Copyright 2020. All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    </footer>
     </div>
 
     <script src="resources/jquery/jquery.min.js"></script>
@@ -428,6 +465,28 @@
 
         ga('create', 'UA-42715764-5', 'auto');
         ga('send', 'pageview');
+    </script>
+
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        $(window).resize(function () {
+            //alert("hey");
+            //Do the reload of plugin
+            var new_width = $("#facebook").parent().width();
+            //alert(new_width);
+            $("#facebook").css("width", new_width);
+            var url = $('#facebook').attr('src').split("&width=");
+            //alert(url[0]);
+            url = url[0] + '&width=' + new_width;
+            $('#facebook').attr('src', url);
+        });
     </script>
 </body>
 

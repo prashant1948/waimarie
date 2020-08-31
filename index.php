@@ -178,7 +178,7 @@
                                                                 href="#"> Resources </a>
                                                         </li>
                                                         <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
-                                                                href="#"> Donations </a>
+                                                                href="/donations.php"> Donations </a>
                                                         </li>
                                                         <li class="dropdown"> <a class="dropdown-item dropdown-toggle"
                                                                 href="#"> Newsletter </a>
